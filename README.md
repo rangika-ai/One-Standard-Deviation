@@ -26,3 +26,7 @@ npm run check
 The included data is deterministic and synthetic. This prototype establishes calculation and visualization feasibility; it does not establish trading efficacy.
 
 FH and FL remain literal fractal extremes. A confirmation close can sit outside that range, so this is a custom structural bar rather than conventional OHLC.
+
+## Standalone browser build
+
+`npm run build` also creates `fractal-structure-lab.html`. Download that single file and open it in any current browser; it does not require a server or installed dependencies.
